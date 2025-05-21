@@ -10,116 +10,265 @@
 </head>
 <body>
    
+<!-- Navigation -->
+<header class="header">
+    <div class="logo-container">
+        <img src="logo.png" alt="Relastic Logo" class="logo">
+    </div>
+    <nav class="nav">
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about" class="active">About Us</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#plastic-info">Plastic Info</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#join">Join Us</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <header class="header">
-        <div class="logo-container">
-            <img src="logo.png" alt="Relastic Logo" class="logo">
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Relastic</h1>
+        <p>Transforming plastic waste into sustainable solutions</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Relastic is a campaign dedicated to promoting sustainable plastic management through the principles of reduce, reuse, and recycle. We connect consumers with businesses that are making a difference in environmental conservation.</p>
+    </div>
+</section>
+
+<!-- Business Section -->
+<section id="business" class="section">
+    <div class="container">
+        <h2>Supporting Sustainable Businesses</h2>
+        <p>Connecting conscious consumers with businesses that prioritize our planet.</p>
+        
+        <div class="business-grid">
+            <div class="business-card">
+                <img src="img2.jpg" alt="Recycling Businesses" class="business-img">    
+                <h3>Recycling Businesses</h3>
+                <p>These companies collect and process plastic waste, transforming it into raw materials that can be used again. By supporting these businesses, you help close the loop in the plastic lifecycle.</p>
+            </div>
+            
+            <div class="business-card">
+                <img src="img3.jpg" alt="Upcycling Businesses" class="business-img">
+                <h3>Upcycling Businesses</h3>
+                <p>Upcycling transforms plastic waste into products of higher quality or value than the original. These innovative businesses create beautiful, functional items from what would otherwise be waste.</p>
+            </div>
+            
+            <div class="business-card">
+                <img src="img4.jpg" alt="Sustainable Product Makers" class="business-img">
+                <h3>Sustainable Product Makers</h3>
+                <p>These businesses create products designed with sustainability in mind from the start—using recycled materials, creating recyclable packaging, or offering plastic-free alternatives.</p>
+            </div>
         </div>
-        <nav class="nav">
-            <button class="hamburger" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#about"active">About Us</a></li>
-                <li><a href="#businesss">Business</a></li>
-                <li><a href="#plastic-info">Plastic Info</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#join">Join Us</a></li>
+    </div>
+</section>
+
+<!-- Plastic Info Section -->
+<section id="plastic-info" class="section">
+    <div class="container">
+        <h2>Plastic Information</h2>
+        <p>Learn about the impact of plastic on our environment and how we can make a difference through proper waste management and sustainable practices.</p>
+        
+        <div class="plastic-grid">
+            <div class="plastic-card">
+                <h3>PET</h3>
+                <p>Polyethylene Terephthalate: Water bottles, food containers</p>
+            </div>
+            <div class="plastic-card">
+                <h3>HDPE</h3>
+                <p>High-Density Polyethylene: Milk jugs, detergent bottles</p>
+            </div>
+            <div class="plastic-card">
+                <h3>PVC</h3>
+                <p>Polyvinyl Chloride: Pipes, vinyl products</p>
+            </div>
+            <div class="plastic-card">
+                <h3>LDPE</h3>
+                <p>Low-Density Polyethylene: Plastic bags, shrink wrap</p>
+            </div>
+            <div class="plastic-card">
+                <h3>PP</h3>
+                <p>Polypropylene: Yogurt containers, bottle caps</p>
+            </div>
+            <div class="plastic-card">
+                <h3>PS</h3>
+                <p>Polystyrene: Foam cups, packaging materials</p>
+            </div>
+        </div>
+        
+        <div class="actions-container">
+            <h3 class="actions-heading">What We're Doing About Plastic Waste</h3>
+            
+            <div class="actions-grid">
+                <div class="action-column">
+                    <div class="action-circle">Reduce</div>
+                    <div class="action-items">
+                        <div class="action-item">All disposable cutlery is biodegradable</div>
+                        <div class="action-item">No single-use plastic glasses in campus bars</div>
+                        <div class="action-item">No single-use plastic at The Maples Day Nursery</div>
+                    </div>
+                </div>
                 
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Relastic</h1>
-            <p>Transforming plastic waste into sustainable solutions</p>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Relastic is a campaign dedicated to promoting sustainable plastic management through the principles of reduce, reuse, and recycle. We connect consumers with businesses that are making a difference in environmental conservation.</p>
-        </div>
-    </section>
-
-    <!-- Business Section -->
-    <section id="business" class="section">
-        <div class="container">
-            <h2>Business</h2>
-            <div class="business-grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 2rem;">
-                <div class="business-card">
-                    <i class="fas fa-recycle"></i>
-                    <h3>Recycling Partners</h3>
-                    <p>Connect with businesses that recycle plastic waste</p>
-                </div>
-                <div class="business-card">
-                    <i class="fas fa-leaf"></i>
-                    <h3>Upcycling Products</h3>
-                    <p>Discover products made from recycled plastic</p>
-                </div>
-                <div class="business-card">
-                    <i class="fas fa-seedling"></i>
-                    <h3>Sustainable Products</h3>
-                    <p>Find eco-friendly alternatives to plastic</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Plastic Info Section -->
-    <section id="plastic-info" class="section">
-        <div class="container">
-            <h2>Plastic Information</h2>
-            <div class="info-content">
-                <p>Learn about the impact of plastic on our environment and how we can make a difference through proper waste management and sustainable practices.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:mariamtamer21122002@gmail.com">mariamtamer21122002@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+201220611121">+20 122 061 1121</a>
+                <div class="action-column">
+                    <div class="action-circle">Reuse</div>
+                    <div class="action-items">
+                        <div class="action-item">61% rise in hot drinks sold into own cup after one year</div>
+                        <div class="action-item">Eco-to-go boxes for all Vale takeout food</div>
+                        <div class="action-item">5500 free City Water bottles made from sugar cane</div>
                     </div>
                 </div>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/share/1KFsySLeAb/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/re_lastic2025" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@relastic8" target="_blank"><i class="fab fa-tiktok"></i></a>
+                
+                <div class="action-column">
+                    <div class="action-circle">Rethink</div>
+                    <div class="action-items">
+                        <div class="action-item">Ongoing audit of plastic use on campus</div>
+                        <div class="action-item">Ground-breaking plastics research</div>
+                        <div class="action-item">Zero waste to landfill since 2010</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Join Us Section -->
-    <section id="join" class="section">
-        <div class="container">
-            <h2>Join Us</h2>
-            <p>Be part of the solution. Join our community of environmental advocates and make a difference.</p>
-            <button class="cta-button">Get Involved</button>
+<!-- Environmental Impact Section -->
+<section class="impact-section">
+    <div class="container">
+        <h2>Environmental Impact</h2>
+        <div class="impact-facts">
+            <div class="impact-fact">
+                <p>Plastic pollution affects virtually every ecosystem on Earth. It threatens wildlife, contributes to climate change, and can even impact human health through microplastics that enter our food and water supplies.</p>
+            </div>
+            <div class="impact-fact">
+                <p>A plastic bottle can take up to 450 years to decompose in the environment, releasing harmful chemicals throughout its breakdown process.</p>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-       
-    </footer>
+<!-- Solutions Section -->
+<section class="section">
+    <div class="container">
+        <h2>Solutions in Action</h2>
+        <p>Around the world, innovative solutions to plastic pollution are emerging:</p>
+        
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <h3>Biodegradable Alternatives</h3>
+                <p>New plastic alternatives made from plant materials that can break down naturally in the environment.</p>
+            </div>
+            <div class="solution-card">
+                <h3>Advanced Recycling</h3>
+                <p>Technologies that can process more types of plastic, including previously difficult-to-recycle materials.</p>
+            </div>
+            <div class="solution-card">
+                <h3>Community Cleanup</h3>
+                <p>Initiatives targeting plastic pollution hotspots in rivers, beaches, and urban areas.</p>
+            </div>
+            <div class="solution-card">
+                <h3>Policy Changes</h3>
+                <p>Plastic bag bans, extended producer responsibility programs, and other regulations to reduce plastic waste.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:mariamtamer21122002@gmail.com">mariamtamer21122002@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+201220611121">+20 122 061 1121</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1KFsySLeAb/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/re_lastic2025" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@relastic8" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Join Us Section -->
+<section id="join" class="section">
+    <div class="container">
+        <div class="no-plastic-badge"><i class="fas fa-ban"></i> NO TO PLASTIC</div>
+        <h2>Join Our Mission</h2>
+        <p>Be part of the solution. Our mission is to connect environmentally conscious consumers with businesses that prioritize sustainability, particularly those focusing on recycling and upcycling plastics.</p>
+        <p>By supporting these businesses, you're not just purchasing products—you're investing in our planet's future.</p>
+        <button class="cta-button">Get Involved</button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Relastic. All rights reserved.</p>
+    <p>Together, we can make a difference.</p>
+</footer>
+
+<script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    }
+    
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+    
+    // Add active class to current section in navigation
+    const sections = document.querySelectorAll('section');
+    const navItems = document.querySelectorAll('.nav-links a');
+    
+    window.addEventListener('scroll', () => {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if (scrollY >= (sectionTop - 300)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navItems.forEach(item => {
+            item.classList.remove('active');
+            if (current && item.getAttribute('href').includes(current)) {
+                item.classList.add('active');
+            }
+        });
+    });
+</script>
 </body>
 </html>
